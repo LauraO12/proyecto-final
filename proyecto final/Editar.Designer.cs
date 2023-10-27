@@ -1,0 +1,864 @@
+﻿namespace proyecto_final
+{
+    partial class Editar
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Editar));
+            panel2 = new Panel();
+            label7 = new Label();
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            panel3 = new Panel();
+            txtapellidoc = new TextBox();
+            label14 = new Label();
+            dTPexpedicion = new DateTimePicker();
+            btnbuscar = new Button();
+            btnvolver = new Button();
+            label6 = new Label();
+            btncrear = new Button();
+            groupBox2 = new GroupBox();
+            cmbdosis = new ComboBox();
+            dateTimePicker3 = new DateTimePicker();
+            txtfabricante = new TextBox();
+            dateTimePicker2 = new DateTimePicker();
+            cmbvacuna = new ComboBox();
+            label27 = new Label();
+            label26 = new Label();
+            label25 = new Label();
+            label24 = new Label();
+            label21 = new Label();
+            btnanadirv = new Button();
+            groupBox1 = new GroupBox();
+            cmbnota = new ComboBox();
+            cmbcurso = new ComboBox();
+            dateTimePicker1 = new DateTimePicker();
+            label23 = new Label();
+            label22 = new Label();
+            label8 = new Label();
+            btnanadirc = new Button();
+            txtcargo = new TextBox();
+            label20 = new Label();
+            txtrol = new TextBox();
+            label13 = new Label();
+            cmblugar = new ComboBox();
+            cmbafp = new ComboBox();
+            label5 = new Label();
+            txttelefono = new TextBox();
+            label2 = new Label();
+            txtnombrecontacto = new TextBox();
+            txtmedicamentos = new TextBox();
+            txtalergias = new TextBox();
+            label18 = new Label();
+            label17 = new Label();
+            label16 = new Label();
+            label15 = new Label();
+            cmbtipo = new ComboBox();
+            cmbarl = new ComboBox();
+            label19 = new Label();
+            txtcorreo = new TextBox();
+            label12 = new Label();
+            label11 = new Label();
+            txtcelular = new TextBox();
+            txtapellido = new TextBox();
+            txtnombre = new TextBox();
+            txtnumero = new TextBox();
+            label10 = new Label();
+            label9 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            panel2.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel3.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.SkyBlue;
+            panel2.Controls.Add(label7);
+            panel2.Location = new Point(21, 102);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1205, 86);
+            panel2.TabIndex = 14;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.SkyBlue;
+            label7.Font = new Font("Bahnschrift Condensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(484, 13);
+            label7.Name = "label7";
+            label7.Size = new Size(319, 58);
+            label7.TabIndex = 11;
+            label7.Text = "Editar Informacion";
+            // 
+            // panel1
+            // 
+            panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(0, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1264, 76);
+            panel1.TabIndex = 15;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox1.Location = new Point(947, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(258, 76);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(21, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(143, 29);
+            label1.TabIndex = 0;
+            label1.Text = "Bienvenido";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.LightBlue;
+            panel3.Controls.Add(txtapellidoc);
+            panel3.Controls.Add(label14);
+            panel3.Controls.Add(dTPexpedicion);
+            panel3.Controls.Add(btnbuscar);
+            panel3.Controls.Add(btnvolver);
+            panel3.Controls.Add(label6);
+            panel3.Controls.Add(btncrear);
+            panel3.Controls.Add(groupBox2);
+            panel3.Controls.Add(groupBox1);
+            panel3.Controls.Add(txtcargo);
+            panel3.Controls.Add(label20);
+            panel3.Controls.Add(txtrol);
+            panel3.Controls.Add(label13);
+            panel3.Controls.Add(cmblugar);
+            panel3.Controls.Add(cmbafp);
+            panel3.Controls.Add(label5);
+            panel3.Controls.Add(txttelefono);
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(txtnombrecontacto);
+            panel3.Controls.Add(txtmedicamentos);
+            panel3.Controls.Add(txtalergias);
+            panel3.Controls.Add(label18);
+            panel3.Controls.Add(label17);
+            panel3.Controls.Add(label16);
+            panel3.Controls.Add(label15);
+            panel3.Controls.Add(cmbtipo);
+            panel3.Controls.Add(cmbarl);
+            panel3.Controls.Add(label19);
+            panel3.Controls.Add(txtcorreo);
+            panel3.Controls.Add(label12);
+            panel3.Controls.Add(label11);
+            panel3.Controls.Add(txtcelular);
+            panel3.Controls.Add(txtapellido);
+            panel3.Controls.Add(txtnombre);
+            panel3.Controls.Add(txtnumero);
+            panel3.Controls.Add(label10);
+            panel3.Controls.Add(label9);
+            panel3.Controls.Add(label4);
+            panel3.Controls.Add(label3);
+            panel3.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            panel3.Location = new Point(21, 206);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1204, 521);
+            panel3.TabIndex = 16;
+            // 
+            // txtapellidoc
+            // 
+            txtapellidoc.BackColor = SystemColors.MenuBar;
+            txtapellidoc.Location = new Point(560, 249);
+            txtapellidoc.Multiline = true;
+            txtapellidoc.Name = "txtapellidoc";
+            txtapellidoc.Size = new Size(169, 31);
+            txtapellidoc.TabIndex = 131;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(385, 256);
+            label14.Name = "label14";
+            label14.Size = new Size(169, 21);
+            label14.TabIndex = 130;
+            label14.Text = "Apellido C emergencia:";
+            // 
+            // dTPexpedicion
+            // 
+            dTPexpedicion.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dTPexpedicion.Location = new Point(183, 195);
+            dTPexpedicion.Name = "dTPexpedicion";
+            dTPexpedicion.Size = new Size(176, 27);
+            dTPexpedicion.TabIndex = 124;
+            // 
+            // btnbuscar
+            // 
+            btnbuscar.BackColor = Color.SkyBlue;
+            btnbuscar.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnbuscar.Location = new Point(382, 16);
+            btnbuscar.Name = "btnbuscar";
+            btnbuscar.Size = new Size(79, 36);
+            btnbuscar.TabIndex = 129;
+            btnbuscar.Text = "Buscar";
+            btnbuscar.UseVisualStyleBackColor = false;
+            // 
+            // btnvolver
+            // 
+            btnvolver.BackColor = Color.SkyBlue;
+            btnvolver.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnvolver.Location = new Point(1055, 479);
+            btnvolver.Name = "btnvolver";
+            btnvolver.Size = new Size(98, 36);
+            btnvolver.TabIndex = 71;
+            btnvolver.Text = "Volver";
+            btnvolver.UseVisualStyleBackColor = false;
+            btnvolver.Click += button2_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(24, 31);
+            label6.Name = "label6";
+            label6.Size = new Size(108, 21);
+            label6.TabIndex = 74;
+            label6.Text = "N documento:";
+            // 
+            // btncrear
+            // 
+            btncrear.BackColor = Color.SkyBlue;
+            btncrear.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btncrear.Location = new Point(904, 479);
+            btncrear.Name = "btncrear";
+            btncrear.Size = new Size(98, 36);
+            btncrear.TabIndex = 70;
+            btncrear.Text = "Crear";
+            btncrear.UseVisualStyleBackColor = false;
+            btncrear.Click += button1_Click_1;
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = Color.SkyBlue;
+            groupBox2.Controls.Add(cmbdosis);
+            groupBox2.Controls.Add(dateTimePicker3);
+            groupBox2.Controls.Add(txtfabricante);
+            groupBox2.Controls.Add(dateTimePicker2);
+            groupBox2.Controls.Add(cmbvacuna);
+            groupBox2.Controls.Add(label27);
+            groupBox2.Controls.Add(label26);
+            groupBox2.Controls.Add(label25);
+            groupBox2.Controls.Add(label24);
+            groupBox2.Controls.Add(label21);
+            groupBox2.Controls.Add(btnanadirv);
+            groupBox2.Font = new Font("Bahnschrift Condensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            groupBox2.Location = new Point(757, 215);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(427, 248);
+            groupBox2.TabIndex = 116;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Vacunas";
+            // 
+            // cmbdosis
+            // 
+            cmbdosis.FormattingEnabled = true;
+            cmbdosis.Location = new Point(216, 196);
+            cmbdosis.Name = "cmbdosis";
+            cmbdosis.Size = new Size(85, 31);
+            cmbdosis.TabIndex = 119;
+            // 
+            // dateTimePicker3
+            // 
+            dateTimePicker3.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker3.Location = new Point(216, 158);
+            dateTimePicker3.Name = "dateTimePicker3";
+            dateTimePicker3.Size = new Size(177, 27);
+            dateTimePicker3.TabIndex = 122;
+            // 
+            // txtfabricante
+            // 
+            txtfabricante.BackColor = SystemColors.MenuBar;
+            txtfabricante.Location = new Point(219, 116);
+            txtfabricante.Multiline = true;
+            txtfabricante.Name = "txtfabricante";
+            txtfabricante.Size = new Size(174, 29);
+            txtfabricante.TabIndex = 119;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker2.Location = new Point(216, 77);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(177, 27);
+            dateTimePicker2.TabIndex = 119;
+            // 
+            // cmbvacuna
+            // 
+            cmbvacuna.FormattingEnabled = true;
+            cmbvacuna.Location = new Point(218, 29);
+            cmbvacuna.Name = "cmbvacuna";
+            cmbvacuna.Size = new Size(176, 31);
+            cmbvacuna.TabIndex = 119;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label27.Location = new Point(22, 164);
+            label27.Name = "label27";
+            label27.Size = new Size(95, 21);
+            label27.TabIndex = 121;
+            label27.Text = "Fecha Dosis:";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label26.Location = new Point(30, 206);
+            label26.Name = "label26";
+            label26.Size = new Size(51, 21);
+            label26.TabIndex = 120;
+            label26.Text = "Dosis:";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label25.Location = new Point(22, 83);
+            label25.Name = "label25";
+            label25.Size = new Size(53, 21);
+            label25.TabIndex = 119;
+            label25.Text = "Fecha:";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label24.Location = new Point(22, 121);
+            label24.Name = "label24";
+            label24.Size = new Size(84, 21);
+            label24.TabIndex = 117;
+            label24.Text = "Fabricante:";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label21.Location = new Point(18, 41);
+            label21.Name = "label21";
+            label21.Size = new Size(63, 21);
+            label21.TabIndex = 116;
+            label21.Text = "Vacuna:";
+            // 
+            // btnanadirv
+            // 
+            btnanadirv.BackColor = Color.SkyBlue;
+            btnanadirv.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnanadirv.Location = new Point(317, 194);
+            btnanadirv.Name = "btnanadirv";
+            btnanadirv.Size = new Size(76, 35);
+            btnanadirv.TabIndex = 116;
+            btnanadirv.Text = "Añadir";
+            btnanadirv.UseVisualStyleBackColor = false;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.SkyBlue;
+            groupBox1.Controls.Add(cmbnota);
+            groupBox1.Controls.Add(cmbcurso);
+            groupBox1.Controls.Add(dateTimePicker1);
+            groupBox1.Controls.Add(label23);
+            groupBox1.Controls.Add(label22);
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(btnanadirc);
+            groupBox1.Font = new Font("Bahnschrift Condensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            groupBox1.Location = new Point(757, 18);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(427, 179);
+            groupBox1.TabIndex = 115;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Cursos";
+            // 
+            // cmbnota
+            // 
+            cmbnota.FormattingEnabled = true;
+            cmbnota.Location = new Point(311, 99);
+            cmbnota.Name = "cmbnota";
+            cmbnota.Size = new Size(85, 31);
+            cmbnota.TabIndex = 123;
+            // 
+            // cmbcurso
+            // 
+            cmbcurso.FormattingEnabled = true;
+            cmbcurso.Location = new Point(220, 24);
+            cmbcurso.Name = "cmbcurso";
+            cmbcurso.Size = new Size(176, 31);
+            cmbcurso.TabIndex = 115;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Font = new Font("Bahnschrift Condensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker1.Location = new Point(219, 64);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(177, 27);
+            dateTimePicker1.TabIndex = 118;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label23.Location = new Point(22, 104);
+            label23.Name = "label23";
+            label23.Size = new Size(47, 21);
+            label23.TabIndex = 117;
+            label23.Text = "Nota:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label22.Location = new Point(18, 69);
+            label22.Name = "label22";
+            label22.Size = new Size(139, 21);
+            label22.TabIndex = 116;
+            label22.Text = "fecha vencimiento:";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(18, 34);
+            label8.Name = "label8";
+            label8.Size = new Size(51, 21);
+            label8.TabIndex = 115;
+            label8.Text = "curso:";
+            // 
+            // btnanadirc
+            // 
+            btnanadirc.BackColor = Color.SkyBlue;
+            btnanadirc.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnanadirc.Location = new Point(317, 136);
+            btnanadirc.Name = "btnanadirc";
+            btnanadirc.Size = new Size(77, 34);
+            btnanadirc.TabIndex = 115;
+            btnanadirc.Text = "Añadir";
+            btnanadirc.UseVisualStyleBackColor = false;
+            // 
+            // txtcargo
+            // 
+            txtcargo.BackColor = SystemColors.MenuBar;
+            txtcargo.Location = new Point(550, 466);
+            txtcargo.Multiline = true;
+            txtcargo.Name = "txtcargo";
+            txtcargo.Size = new Size(176, 31);
+            txtcargo.TabIndex = 128;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label20.Location = new Point(386, 476);
+            label20.Name = "label20";
+            label20.Size = new Size(55, 21);
+            label20.TabIndex = 127;
+            label20.Text = "Cargo:";
+            // 
+            // txtrol
+            // 
+            txtrol.BackColor = SystemColors.MenuBar;
+            txtrol.Location = new Point(551, 408);
+            txtrol.Multiline = true;
+            txtrol.Name = "txtrol";
+            txtrol.Size = new Size(176, 31);
+            txtrol.TabIndex = 126;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Location = new Point(387, 416);
+            label13.Name = "label13";
+            label13.Size = new Size(36, 21);
+            label13.TabIndex = 125;
+            label13.Text = "Rol:";
+            // 
+            // cmblugar
+            // 
+            cmblugar.FormattingEnabled = true;
+            cmblugar.Location = new Point(551, 358);
+            cmblugar.Name = "cmblugar";
+            cmblugar.Size = new Size(176, 21);
+            cmblugar.TabIndex = 124;
+            // 
+            // cmbafp
+            // 
+            cmbafp.FormattingEnabled = true;
+            cmbafp.Location = new Point(183, 479);
+            cmbafp.Name = "cmbafp";
+            cmbafp.Size = new Size(176, 21);
+            cmbafp.TabIndex = 123;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(386, 358);
+            label5.Name = "label5";
+            label5.Size = new Size(145, 21);
+            label5.TabIndex = 122;
+            label5.Text = "Lugar de induccion:";
+            // 
+            // txttelefono
+            // 
+            txttelefono.BackColor = SystemColors.MenuBar;
+            txttelefono.Location = new Point(560, 300);
+            txttelefono.Multiline = true;
+            txttelefono.Name = "txttelefono";
+            txttelefono.Size = new Size(167, 31);
+            txttelefono.TabIndex = 121;
+            txttelefono.TextChanged += textBox15_TextChanged;
+            txttelefono.KeyPress += txttelefono_KeyPress;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(387, 304);
+            label2.Name = "label2";
+            label2.Size = new Size(96, 21);
+            label2.TabIndex = 120;
+            label2.Text = "Telefono C.E:";
+            // 
+            // txtnombrecontacto
+            // 
+            txtnombrecontacto.BackColor = SystemColors.MenuBar;
+            txtnombrecontacto.Location = new Point(558, 190);
+            txtnombrecontacto.Multiline = true;
+            txtnombrecontacto.Name = "txtnombrecontacto";
+            txtnombrecontacto.Size = new Size(168, 31);
+            txtnombrecontacto.TabIndex = 119;
+            txtnombrecontacto.KeyPress += txtnombrecontacto_KeyPress;
+            // 
+            // txtmedicamentos
+            // 
+            txtmedicamentos.BackColor = SystemColors.MenuBar;
+            txtmedicamentos.Location = new Point(558, 133);
+            txtmedicamentos.Multiline = true;
+            txtmedicamentos.Name = "txtmedicamentos";
+            txtmedicamentos.Size = new Size(168, 31);
+            txtmedicamentos.TabIndex = 118;
+            txtmedicamentos.TextChanged += txtmedicamentos_TextChanged;
+            // 
+            // txtalergias
+            // 
+            txtalergias.BackColor = SystemColors.MenuBar;
+            txtalergias.Location = new Point(558, 75);
+            txtalergias.Multiline = true;
+            txtalergias.Name = "txtalergias";
+            txtalergias.Size = new Size(168, 31);
+            txtalergias.TabIndex = 117;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.Location = new Point(382, 200);
+            label18.Name = "label18";
+            label18.Size = new Size(170, 21);
+            label18.TabIndex = 116;
+            label18.Text = "Nombre C emergencia:";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label17.Location = new Point(385, 143);
+            label17.Name = "label17";
+            label17.Size = new Size(115, 21);
+            label17.TabIndex = 115;
+            label17.Text = "Medicamentos:";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(385, 85);
+            label16.Name = "label16";
+            label16.Size = new Size(69, 21);
+            label16.TabIndex = 114;
+            label16.Text = "Alergias:";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Location = new Point(26, 479);
+            label15.Name = "label15";
+            label15.Size = new Size(40, 21);
+            label15.TabIndex = 113;
+            label15.Text = "AFP:";
+            // 
+            // cmbtipo
+            // 
+            cmbtipo.FormattingEnabled = true;
+            cmbtipo.Location = new Point(183, 367);
+            cmbtipo.Name = "cmbtipo";
+            cmbtipo.Size = new Size(176, 21);
+            cmbtipo.TabIndex = 87;
+            // 
+            // cmbarl
+            // 
+            cmbarl.FormattingEnabled = true;
+            cmbarl.Location = new Point(183, 431);
+            cmbarl.Name = "cmbarl";
+            cmbarl.Size = new Size(176, 21);
+            cmbarl.TabIndex = 86;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.Location = new Point(25, 431);
+            label19.Name = "label19";
+            label19.Size = new Size(41, 21);
+            label19.TabIndex = 85;
+            label19.Text = "ARL:";
+            // 
+            // txtcorreo
+            // 
+            txtcorreo.BackColor = SystemColors.MenuBar;
+            txtcorreo.Location = new Point(183, 307);
+            txtcorreo.Multiline = true;
+            txtcorreo.Name = "txtcorreo";
+            txtcorreo.Size = new Size(176, 31);
+            txtcorreo.TabIndex = 84;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Location = new Point(25, 367);
+            label12.Name = "label12";
+            label12.Size = new Size(115, 21);
+            label12.TabIndex = 83;
+            label12.Text = "Tipo de sangre:";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Location = new Point(25, 317);
+            label11.Name = "label11";
+            label11.Size = new Size(61, 21);
+            label11.TabIndex = 82;
+            label11.Text = "Correo:";
+            // 
+            // txtcelular
+            // 
+            txtcelular.BackColor = SystemColors.MenuBar;
+            txtcelular.Location = new Point(183, 248);
+            txtcelular.Multiline = true;
+            txtcelular.Name = "txtcelular";
+            txtcelular.Size = new Size(176, 31);
+            txtcelular.TabIndex = 81;
+            txtcelular.TextChanged += textBox8_TextChanged;
+            txtcelular.KeyPress += txtcelular_KeyPress;
+            // 
+            // txtapellido
+            // 
+            txtapellido.BackColor = SystemColors.MenuBar;
+            txtapellido.Location = new Point(183, 133);
+            txtapellido.Multiline = true;
+            txtapellido.Name = "txtapellido";
+            txtapellido.Size = new Size(176, 31);
+            txtapellido.TabIndex = 79;
+            txtapellido.KeyPress += txtapellido_KeyPress;
+            // 
+            // txtnombre
+            // 
+            txtnombre.BackColor = SystemColors.MenuBar;
+            txtnombre.Location = new Point(183, 75);
+            txtnombre.Multiline = true;
+            txtnombre.Name = "txtnombre";
+            txtnombre.Size = new Size(176, 31);
+            txtnombre.TabIndex = 78;
+            txtnombre.KeyPress += txtnombre_KeyPress;
+            // 
+            // txtnumero
+            // 
+            txtnumero.BackColor = SystemColors.MenuBar;
+            txtnumero.Location = new Point(183, 21);
+            txtnumero.Multiline = true;
+            txtnumero.Name = "txtnumero";
+            txtnumero.Size = new Size(176, 31);
+            txtnumero.TabIndex = 77;
+            txtnumero.TextChanged += txtnumero_TextChanged;
+            txtnumero.KeyPress += txtnumero_KeyPress;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(24, 258);
+            label10.Name = "label10";
+            label10.Size = new Size(62, 21);
+            label10.TabIndex = 76;
+            label10.Text = "Celular:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Location = new Point(24, 200);
+            label9.Name = "label9";
+            label9.Size = new Size(152, 21);
+            label9.TabIndex = 75;
+            label9.Text = "Fecha de expedicion:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(25, 88);
+            label4.Name = "label4";
+            label4.Size = new Size(88, 21);
+            label4.TabIndex = 73;
+            label4.Text = "Nombre(s):";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(25, 143);
+            label3.Name = "label3";
+            label3.Size = new Size(87, 21);
+            label3.TabIndex = 72;
+            label3.Text = "Apellido(s):";
+            // 
+            // Editar
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.SteelBlue;
+            ClientSize = new Size(1238, 739);
+            Controls.Add(panel3);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
+            Name = "Editar";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Editar";
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ResumeLayout(false);
+        }
+
+        #endregion
+        private Panel panel2;
+        private Label label7;
+        private Panel panel1;
+        private PictureBox pictureBox1;
+        private Label label1;
+        private Panel panel3;
+        private ComboBox cmbtipo;
+        private ComboBox cmbarl;
+        private Label label19;
+        private TextBox txtcorreo;
+        private Label label12;
+        private Label label11;
+        private TextBox txtcelular;
+        private TextBox txtapellido;
+        private TextBox txtnombre;
+        private TextBox txtnumero;
+        private Label label10;
+        private Label label9;
+        private Label label6;
+        private Label label4;
+        private Label label3;
+        private TextBox txtcargo;
+        private Label label20;
+        private TextBox txtrol;
+        private Label label13;
+        private ComboBox cmblugar;
+        private ComboBox cmbafp;
+        private Label label5;
+        private TextBox txttelefono;
+        private Label label2;
+        private TextBox txtnombrecontacto;
+        private TextBox txtmedicamentos;
+        private TextBox txtalergias;
+        private Label label18;
+        private Label label17;
+        private Label label16;
+        private Label label15;
+        private GroupBox groupBox2;
+        private ComboBox cmbdosis;
+        private DateTimePicker dateTimePicker3;
+        private TextBox txtfabricante;
+        private DateTimePicker dateTimePicker2;
+        private ComboBox cmbvacuna;
+        private Label label27;
+        private Label label26;
+        private Label label25;
+        private Label label24;
+        private Label label21;
+        private Button btnanadirv;
+        private GroupBox groupBox1;
+        private ComboBox cmbcurso;
+        private DateTimePicker dateTimePicker1;
+        private Label label23;
+        private Label label22;
+        private Label label8;
+        private Button btnanadirc;
+        private Button btnvolver;
+        private Button btncrear;
+        private Button btnbuscar;
+        private ComboBox cmbnota;
+        private DateTimePicker dTPexpedicion;
+        private TextBox txtapellidoc;
+        private Label label14;
+    }
+}
